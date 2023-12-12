@@ -1,5 +1,7 @@
 # This project deals with hosting a php application 
+
 setps followed for quick review:
+
 -create an ec2 instance 
 -update 
 -install apache2 web server 
@@ -19,7 +21,9 @@ setps followed for quick review:
 -then attach it to the route53 with given website hostaddress
 -can be attached to the CDN  for edge location and low latency
 -verify the end user experinece 
+
 ----------------------------------------------------------------
+
 sudo apt-get update
 sudo add-apt-repository -y ppa:ondrej/php
 sudo apt install php5.6 mysql-client php5.6-mysqli
@@ -27,6 +31,7 @@ mysql -h endpoint -u username-of-db -p
 show databases 
 create table data(firstname varchar(15), email varchar(25));
 select * from the tablename 
+
 ---------------------------------------------------------------------------
 
 
